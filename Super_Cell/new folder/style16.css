@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.c {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  align-content: center;
+  margin: auto;
+  background-color: purple;
+}
+button {
+  position: relative;
+  background-color: red;
+}
+button::before {
+  position: absolute;
+  left: 0;
+  content: "";
+  bottom: 0;
+  width: 0%;
+  height: 5px;
+  background-color: rgb(255, 0, 217);
+  transition: 0.25s;
+}
+button:hover::before {
+  width: 100%;
+}
+button::after {
+  right: 0;
+  content: "";
+  bottom: 0;
+  width: 5px;
+  height: 0;
+  position: absolute;
+  background-color: rgb(255, 0, 217);
+  transition: 0.25s 0.25s;
+}
+button::before {
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: black;
+  transition: 0.25s;
+}
+button:hover::before {
+  transform: scale(1.5);
+  opacity: 0;
+}

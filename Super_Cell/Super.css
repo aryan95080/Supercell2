@@ -1,0 +1,435 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  /* overflow-x: scroll; */
+}
+/* nav {
+  background-color: black;
+  width: 90%;
+  height: 13%;
+  margin-lft: 53px;
+} */
+/* }
+.left ul {
+  align-items: center;
+  list-style: none;
+  color: rgb(178, 8, 8);
+  
+}
+.left>ul>li{
+    display: inline;
+    position: absolute;
+
+} */
+nav {
+  padding-left: 2.5%;
+  width: 95%;
+  position: fixed;
+  z-index: 1;
+}
+
+.header .left {
+  text-align: center;
+}
+nav .left ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 60px;
+  background-color: black;
+}
+nav .left ul a{
+  color: white;
+  text-decoration: none;
+}
+
+nav .left ul li {
+  padding: 0 12px;
+}
+.left img {
+  width: 44px;
+}
+.right {
+  position: absolute;
+  top: 10px;
+}
+.header .right ul {
+  text-align: center;
+}
+nav .right ul {
+  align-items: center;
+  padding-left: 530px;
+  display: flex;
+}
+.right ul li img {
+  width: 35px;
+  margin-left: 20px;
+}
+.right ul li input {
+  width: 150px;
+  height: 30px;
+  margin-left: 20px;
+}
+.right ul {
+  list-style-type: none;
+}
+
+/* 1st row */
+
+.row1 img {
+  width: 100%;
+}
+.row1 > h1 {
+  position: absolute;
+  top: 40%;
+  padding-left: 400px;
+}
+.row1 > p {
+  position: absolute;
+  top: 50%;
+  padding-left: 370px;
+}
+
+.row1 > a > .r11 {
+  width: 130px;
+  height: 50px;
+  color: white;
+  border-radius: 50px;
+  background-color: rgb(97, 97, 233);
+}
+.r11 {
+  position: absolute;
+  top: 65%;
+  left: 450px;
+  padding: 12px;
+  text-align: center;
+}
+.row1 > a {
+  text-decoration: none;
+}
+
+/* 2nd row */
+
+.row2 > h1 {
+  top: 40%;
+  padding-left: 400px;
+}
+
+.row2 {
+  padding-left: 2.5%;
+  width: 95%;
+}
+.row2 img {
+  width: 95%;
+}
+.r21 {
+  width: 47.5%;
+  position: absolute;
+}
+.r22 {
+  width: 47.5%;
+  position: absolute;
+  right: 2.5%;
+}
+.r21 > p {
+  font-size: 16px;
+  font: bold;
+  font-weight: 200px;
+  color: rgb(235, 46, 203);
+  text-align: center;
+}
+.r22 > p {
+  font-size: 16px;
+  font: bold;
+  font-weight: 200px;
+  color: rgb(235, 46, 203);
+  text-align: center;
+}
+
+.r21 > span {
+  color: rgb(0, 255, 55);
+}
+.r21 > a {
+  text-decoration: none;
+  text-align: center;
+}
+.r22 > a {
+  text-decoration: none;
+  text-align: justify;
+}
+
+/* 3rd row */
+
+.row3 {
+  margin-top: 42.5%;
+  padding-left: 2.5%;
+  width: 95%;
+}
+.row3 img {
+  width: 95%;
+}
+.r31 {
+  width: 47.5%;
+  position: absolute;
+}
+.r32 {
+  width: 47.5%;
+  position: absolute;
+  right: 2.5%;
+}
+.r31 > p {
+  font-size: 16px;
+  font: bold;
+  font-weight: 200px;
+  color: rgb(235, 46, 203);
+  text-align: center;
+}
+.r32 > p {
+  font-size: 16px;
+  font: bold;
+  font-weight: 200px;
+  color: rgb(235, 46, 203);
+  text-align: center;
+}
+.r31 > a {
+  text-decoration: none;
+  text-align: center;
+}
+.r32 > a {
+  text-decoration: none;
+  text-align: center;
+}
+
+/* 4th row */
+
+.row4 {
+  margin-top: 85%;
+  padding-left: 2.5%;
+  width: 95%;
+}
+.row4 img {
+  width: 95%;
+}
+.r41 {
+  width: 47.5%;
+  position: absolute;
+}
+.r42 {
+  width: 47.5%;
+  position: absolute;
+  right: 2.5%;
+}
+.r41 > p {
+  font-size: 16px;
+  font: bold;
+  font-weight: 200px;
+  color: rgb(235, 46, 203);
+  text-align: center;
+}
+.r42 > p {
+  font-size: 16px;
+  font: bold;
+  font-weight: 200px;
+  color: rgb(235, 46, 203);
+  text-align: center;
+}
+.r41 > a {
+  text-decoration: none;
+  text-align: center;
+}
+.r42 > a {
+  text-decoration: none;
+  text-align: center;
+}
+
+/* 5th row */
+
+.row5 {
+  margin-top: 128%;
+  padding-left: 2.5%;
+  width: 95%;
+}
+.row5 img {
+  width: 95%;
+}
+.r51 {
+  width: 47.5%;
+  position: absolute;
+}
+.r51 > p {
+  font-size: 16px;
+  font: bold;
+  font-weight: 200px;
+  color: rgb(235, 46, 203);
+  text-align: center;
+}
+.r51 > a {
+  text-decoration: none;
+  text-align: center;
+}
+.r52 > a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.explore > a > .r61 {
+  width: 159px;
+  height: 43px;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(97, 97, 233);
+  margin-left: 450px;
+}
+.r61 {
+  position: absolute;
+  margin: 40%;
+  left: 10px;
+  padding: 12px;
+  text-align: center;
+}
+.explore > a {
+  text-decoration: none;
+}
+
+.row7 {
+  width: 100%;
+  height: 100%;
+  padding-top: 520px;
+}
+.r71 > img {
+  position: absolute;
+  width: 100%;
+  height: 110%;
+  margin-right: 0;
+}
+.r71 > h3 {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  padding-top: 100px;
+  padding-left: 30px;
+}
+.r71 > p {
+  position: absolute;
+  color: white;
+  padding-top: 130px;
+  padding-left: 30px;
+  font-size: 20px;
+}
+.r71 > a > span {
+  width: 150px;
+  height: 50px;
+  padding-top: 15px;
+  margin-left: 30px;
+  margin-top: 200px;
+  text-align: center;
+  position: absolute;
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+}
+.r72 {
+  width: 50%;
+  height: 100%
+  position: absolute;
+  right:15%;
+}
+.r72 > img {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  margin-left: 50%;
+}
+
+.row8 {
+  top: 590%;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(34, 122, 204);
+  position: absolute;
+}
+.r81 > img {
+  position: absolute;
+  width: 50%;
+}
+.r82 {
+  width: 60%;
+  padding-left: 50%;
+}
+
+.r82 > h3 {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  padding-top: 100px;
+  padding-left: 30px;
+}
+.r82 > p {
+  position: absolute;
+  color: white;
+  padding-top: 130px;
+  padding-left: 30px;
+  font-size: 20px;
+}
+.r82 > a > span {
+  width: 150px;
+  height: 50px;
+  padding-top: 15px;
+  margin-left: 30px;
+  margin-top: 200px;
+  text-align: center;
+  position: absolute;
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+}
+
+footer {
+  width: 100%;
+  height: 110%;
+  background-color: rgb(12, 12, 12);
+  margin-top: 1034px;
+
+}
+footer .foot {
+  padding-bottom: 30%;
+}
+.foot ul {
+  display: flex;
+  list-style-type: none;
+}
+.foot #left{
+  position: absolute;
+  padding-left: 100px;
+}
+
+.foot #left img {
+  width: 35px;
+  margin: 10px;
+}
+.foot p {
+  padding-left: 100px;
+  margin-top: 30px;
+  color: white;
+}
+
+.foot #right img {
+  width: 150px;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+.foot #right {
+  position: absolute;
+  left: 645px;
+}
+.foot hr {
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 10%;
+}
